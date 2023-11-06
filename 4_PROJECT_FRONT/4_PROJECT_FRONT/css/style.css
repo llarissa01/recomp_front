@@ -1,0 +1,136 @@
+body {
+    background-color: rgb(231, 226, 226); 
+    font-family: HankenGrotesk-Medium;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.divPrincipal {
+    justify-content: center; 
+    display: flex; 
+    margin-top: 50px;
+}
+
+.divSecundaria {
+    display: flex; 
+    border-radius: 15px; 
+    background-color: white;
+    max-width: 600px;
+}
+
+.divYourResults {
+    background-color: hsl(245.37deg 87.96% 57.65%); 
+    border-radius: 15px; 
+    padding: 50px;
+    text-align: center; 
+    color: white;
+}
+
+.divYourResultsInterna {
+    display: flex;
+    justify-content: center;
+}
+
+.divCirculo {
+    background: linear-gradient(rgb(67, 29, 172), hsla(241, 82%, 53%, 0)); 
+    border-radius: 50%; 
+    width: 200px; 
+    height: 200px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.textCenter h1 {
+    margin: 10px 0 -30px 0;
+}
+
+.textCenter p {
+    color: hsl(300deg 3.29% 58.24%);
+}
+
+.divSummary {
+    background-color: transparent; 
+    border-radius: 15px; 
+    padding: 40px;
+    color: white;
+}
+
+.divSummary h3 {
+    color: rgb(16, 16, 105);
+}
+
+.displayContents {
+    display: contents;
+}
+
+.displayFlex{
+    display: flex;
+}
+
+.divSummaryInterna {
+    width: 210px; height: 45px; 
+    background-color: hsl(6deg 100% 98.04%); 
+    border-radius: 5px; 
+    justify-content: space-between; 
+    display: flex; 
+    padding: 8px; 
+    margin: 10px 0 10px 0;
+}
+
+.iconSummaryImagem{
+        width: 25px; 
+        margin-right: 10px;
+}
+
+.iconSummaryTituloReaction {
+    color: #ff5555;
+}
+
+.iconSummaryTituloMemory {
+    color: #ffb21e;
+}
+
+.iconSummaryTituloVerbal {
+    color: #01bb8f;
+}
+
+.iconSummaryTituloVisual {
+    color: #1125d6;
+}
+
+.pontuacaoAtual {
+    color:#111146;
+}
+
+.pontuacaoMaxima {
+    color: hsl(300deg 3.29% 58.24%);
+}
+
+.divBotao {
+    width: 210px; 
+    background-color: hsl(223.9deg 29.93% 26.86%); 
+    border-radius: 30px; 
+    justify-content: center;
+    display: flex; 
+    height: 50px;
+}
+
+.divBotaoInterna {
+    color: white; 
+    margin-top: -7px;
+}
+
+
+@font-face {
+    font-family: 'HankenGrotesk-Medium';
+    src: url('./assets/fonts/static/HankenGrotesk-Medium.ttf') format('truetype');
+}
